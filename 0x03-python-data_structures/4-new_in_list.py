@@ -3,6 +3,6 @@ def new_in_list(my_list, idx, element):
     copy = my_list[:]
     if idx < 0 or idx > (len(my_list)):
         return copy
-    copy[idx] = my_list[idx]
+    copy[idx] = element
     return copy
     return my_list
