@@ -42,7 +42,7 @@ class Rectangle:
         """Defining area of Rectangle"""
         return (self.__width * self.__height)
 
-    def perimeter:
+    def perimeter(self):
         """Define perimeter of Rectangle
             represent with '#'
         """
