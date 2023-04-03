@@ -27,10 +27,8 @@ class Rectangle:
 
     @property
     def height(self):
-        if not isinstance(valie, int):
-            raise TypeError("height must be an integer")
-        if value < 0:
-            raise ValueError("height must be >= 0")
+        """define height of Rectangle"""
+        return self.__height
 
     @height.setter
     def height(self, value):
@@ -44,11 +42,10 @@ class Rectangle:
         """Defining area of Rectangle"""
         return (self.__width * self.__height)
 
-    def perimeter (self):
+    def perimeter:
         """Define perimeter of Rectangle
             represent with '#'
         """
-        if width == 0 or height == 0:
+        if self.__width == 0 or self.__height == 0:
             return (0)
-        else:
-            return ((self.__height * 2) + (self.__width * 2))
+        return ((self.__height * 2) + (self.__width * 2))
