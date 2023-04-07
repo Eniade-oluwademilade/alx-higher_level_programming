@@ -1,0 +1,32 @@
+#0-add_integer.py
+
+##The function - add_integer(a, b=98); adds two integers and returns the answer.
+  it accepts an integer or float as input, typecasting the float into an 'int'
+ 
+Case study 1: The function can accept two positive integers as input;
+>>> add_integer(5, 6)
+    11
+
+Case study2:The function can accept a negative integer and a positive integer:
+>>> add_integer(-5,  6)
+    1
+
+Case 3: A float and an integer is acceptable
+>>> add_integer(5, 6.0)
+    11
+
+Case 4: Two floats can be valid arguments
+>>> add_integer(5.0, 6.0)
+    11
+
+Case 5: strings or chars are invalid input.
+>>>add_integer('five', 6)
+   TypeError: a can only be a number
+
+Case 6: either arguments can neither be string or character
+>>> add_integer(5, 'six')
+    TypeError: b can only be a number
+
+Case 7: Only one argument can be entered, given that the number would be wdded to 98, by default.
+>>> add_integer(5)
+    103
