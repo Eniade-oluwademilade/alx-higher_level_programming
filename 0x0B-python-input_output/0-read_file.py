@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Function reads file to stdout"""
 
+
 def read_file(filename=""):
     """Reads file to stdout
        filename: name of file to print to stdout
